@@ -1,0 +1,133 @@
+@font-face {
+    font-family: 'gg sans';
+    /* Discord Schriftart */
+    src: url('ggsans-Normal.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    font-family: 'gg sans', 'Noto Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #36393f;
+    color: #dcddde;
+}
+
+.container {
+    width: 80%;
+    max-width: 1000px;
+    background: #2f3136;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+h1,
+h2 {
+    text-align: left;
+    color: #fff;
+    margin: 0 0 10px 0;
+}
+
+.editor-container {
+    margin-bottom: 20px;
+}
+
+.ck-editor__editable_inline {
+    background-color: #40444b !important;
+    color: #dcddde !important;
+    border: 1px solid #202225;
+    border-radius: 8px;
+    padding: 10px;
+    height: 300px;
+    overflow-y: auto;
+    line-height: 1.4;
+    font-family: 'gg sans', 'Noto Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-variant-caps: normal;
+    font-variant-east-asian: normal;
+    font-variant-ligatures: normal;
+    font-variant-numeric: normal;
+    font-weight: 400;
+}
+
+.ck-editor__editable_inline p {
+    margin: 0;
+}
+
+.ck-editor__editable_inline a {
+    color: #00A9FC;
+    text-decoration: none;
+}
+
+.ck-editor__editable_inline a:hover {
+    text-decoration: underline;
+}
+
+.output {
+    background: #40444b;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #202225;
+    line-height: 1.4;
+    font-family: 'gg sans', 'Noto Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-variant-caps: normal;
+    font-variant-east-asian: normal;
+    font-variant-ligatures: normal;
+    font-variant-numeric: normal;
+    font-weight: 400;
+}
+
+.output a {
+    color: #00A9FC;
+    text-decoration: none;
+}
+
+.output a:hover {
+    text-decoration: underline;
+}
+
+pre {
+    margin: 0;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    color: #dcddde;
+    line-height: 1.4;
+    font-family: 'gg sans', 'Noto Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-variant-caps: normal;
+    font-variant-east-asian: normal;
+    font-variant-ligatures: normal;
+    font-variant-numeric: normal;
+    font-weight: 400;
+}
+
+.button {
+    min-height: 32px;
+    min-width: 32px;
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+    background-color: #4f545c;
+    font-size: 14px;
+    padding: 2px 16px;
+    cursor: pointer;
+    transition: background-color 250ms linear;
+    margin-top: 10px;
+}
+
+.disclaimer {
+    margin-top: 20px;
+    font-size: 12px;
+    color: #b9bbbe;
+    text-align: center;
+}
